@@ -54,7 +54,7 @@ body{
      margin-bottom: 15px;
      font-family: "Poppins", sans-serif;
 }
-.zoneEcriture .btn{
+.btn{
     height: 40px ;
     width: 40px;
     border-radius: 0px 5px 5px 0px;
@@ -87,11 +87,7 @@ body{
     transform: translateY(-10px);
     font-weight: bold;
 }
-/* .do-li{
-    background-color: rgb(68, 68, 255);
-    color: rgb(68, 68, 255);
-    
-} */
+
 .do:hover{
     background-color: white;
     color:  rgb(68, 68, 255);
@@ -102,7 +98,7 @@ body{
     align-items: center;
     gap: 15px;
 }
-.option h3{
+h3{
     color:  rgb(68, 68, 255);
     font-family: "Poppins", sans-serif;
     font-size: 15px;
@@ -127,6 +123,32 @@ body{
     font-size: 30px;
 }
 
+
+.bodydark{
+    background-color: black;
+}
+.bodydark li{
+    background-color:   blue;
+    color: white;
+
+}
+.interfacedark{
+    background-color: #7C4DFF;
+}
+.titredark{
+    color: white;
+}
+.btndark{
+    background-color: black;
+    color: #7C4DFF;
+}
+.btnResetdark{
+    color: #7C4DFF;
+    background-color: white;
+}
+.h3dark{
+    color: white;
+}
 @keyframes Domove{
     from{
         transform: translateY(10px);
